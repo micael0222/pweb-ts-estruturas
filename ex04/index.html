@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ex. 04: Meta de economia</title>
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <h1>Meta de economia</h1>
+  <p><a href="../index.html">← Voltar</a> · Micael</p>
+
+  <label for="meta">Quanto você quer juntar? (R$)</label>
+  <input type="number" id="meta" step="0.01">
+
+  <label for="deposito">Quanto vai guardar por mês? (R$)</label>
+  <input type="number" id="deposito" step="0.01">
+
+  <label for="taxa">Rendimento ao mês (%, opcional, padrão 0,5)</label>
+  <input type="number" id="taxa" step="0.01">
+
+  <button id="calcular">Calcular</button>
+
+  <div id="resultado"></div>
+
+  <script type="module" src="ex04.js"></script>
+</body>
+</html>

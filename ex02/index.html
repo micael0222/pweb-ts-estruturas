@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ex. 02: Conta de luz</title>
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <h1>Simulador de conta de luz</h1>
+  <p><a href="../index.html">← Voltar</a> · Micael</p>
+
+  <label for="consumo">Consumo do mês (kWh)</label>
+  <input type="number" id="consumo">
+
+  <label for="tipo">Tipo de cliente</label>
+  <select id="tipo">
+    <option value="residencial">Residencial</option>
+    <option value="rural">Rural</option>
+    <option value="comercial">Comercial</option>
+    <option value="industrial">Industrial</option>
+  </select>
+
+  <label for="bandeira">Bandeira tarifária</label>
+  <select id="bandeira">
+    <option value="verde">Verde</option>
+    <option value="amarela">Amarela</option>
+    <option value="vermelha1">Vermelha (patamar 1)</option>
+    <option value="vermelha2">Vermelha (patamar 2)</option>
+  </select>
+
+  <button id="calcular">Calcular conta</button>
+
+  <div id="resultado"></div>
+
+  <script type="module" src="ex02.js"></script>
+</body>
+</html>

@@ -1,0 +1,12 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "chrome",
+      "request": "launch",
+      "name": "Depurar exercício",
+      "url": "http://127.0.0.1:5500/ex01/index.html",
+      "webRoot": "${workspaceFolder}"
+    }
+  ]
+}
